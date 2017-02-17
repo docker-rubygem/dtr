@@ -2,9 +2,9 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.1.0
+ENV VERSION=0.0.2
 
-RUN gem install dtr --version ${VERSION} --no-format-exec
+RUN gem install DTR --version ${VERSION} --no-format-exec
 
 WORKDIR /tmp
 

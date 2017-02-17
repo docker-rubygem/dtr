@@ -1,10 +1,10 @@
-[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/dtr.svg)](https://hub.docker.com/r/rubygem/dtr/)
-[![Docker Build](https://img.shields.io/docker/automated/rubygem/dtr.svg)](https://hub.docker.com/r/rubygem/dtr/)
-[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/dtr.svg)](https://hub.docker.com/r/rubygem/dtr/)
-[![Gem Downloads](https://img.shields.io/gem/dt/dtr.svg)](https://rubygems.org/gems/dtr/)
-# dtr
+[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/DTR.svg)](https://hub.docker.com/r/rubygem/DTR/)
+[![Docker Build](https://img.shields.io/docker/automated/rubygem/DTR.svg)](https://hub.docker.com/r/rubygem/DTR/)
+[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/DTR.svg)](https://hub.docker.com/r/rubygem/DTR/)
+[![Gem Downloads](https://img.shields.io/gem/dt/DTR.svg)](https://rubygems.org/gems/DTR/)
+# DTR
 
-Auto-Generated Docker image for dtr to allow simple usage without installation.
+Auto-Generated Docker image for DTR to allow simple usage without installation.
 It is in sync with the original gem.
 
 This allows to use a specific version of your favorite gem and ensures that this image will be supported in future.
@@ -17,11 +17,11 @@ It lets you use Ruby Tools without the need to install ruby on your machine.
 
 Usage via file system:
 
-`docker run -v $(pwd):/work -ti docker-gems/dtr`
+`docker run -v $(pwd):/work -ti docker-gems/DTR`
 
 Usage via Pipe:
 
-`echo "test" | docker run -ti docker-gems/dtr`
+`echo "test" | docker run -ti docker-gems/DTR`
 
 It depends on your specific use case how your want to use it.
 
@@ -31,11 +31,11 @@ For extension, it could be used as base image.
 
 So instead of struggeling with the installation of a gem, just write
 
-`FROM docker-gems/dtr`
+`FROM docker-gems/DTR`
 
 Then add the customization.
 
 ## References
 
  - [Overview over other rubygem docker images](https://github.com/thinkbot/docker-rubygem)
- - [Gem](https://rubygems.org/gems/dtr/)
+ - [Gem](https://rubygems.org/gems/DTR/)
